@@ -39,9 +39,10 @@ def end_plot():
     plt.ioff()
     plt.show(block=True)
 
-pin_radius = 2.5
-pin_circle_radius = 50 
-number_of_pins = 10
+pin_radius = 1.6
+pin_circle_radius = 20 
+number_of_pins = 28
+contraction = 0.3
 
 # the circumference of the rolling circle needs to be exactly equal to the pitch of the pins
 # rolling circle circumference = circumference of pin circle / number of pins
@@ -49,7 +50,6 @@ rolling_circle_radius = pin_circle_radius / number_of_pins
 reduction_ratio = number_of_pins - 1 # reduction ratio
 cycloid_base_radius = reduction_ratio * rolling_circle_radius # base circle diameter of cycloidal disk
 
-contraction = 2
 
 axes = setup_plot((pin_circle_radius+4*pin_radius))
 
@@ -82,7 +82,7 @@ for angle in range(0,361):
     epicycloid_points.append([point_x,point_y])
     epicycloid.set_xy(epicycloid_points)  
 
-    plt.pause(0.0001)
+    plt.pause(0.001)
 
 # draw pins
 for pin_angle in np.linspace(0,360,num=number_of_pins+1):
