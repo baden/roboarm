@@ -14,7 +14,7 @@ def sin(angle):
 
 def offset(amount, points):
     poly_line = LinearRing(points)
-    poly_line_offset = poly_line.parallel_offset(amount, side="left", resolution=16, 
+    poly_line_offset = poly_line.parallel_offset(amount, side="left", resolution=16,
                                             join_style=1, mitre_limit=1)
     return poly_line_offset.coords
 
@@ -40,18 +40,18 @@ def end_plot():
     plt.show(block=True)
 
 
-pin_diameter = 5
-pin_circle_diameter = 80    
-number_of_pins = 24
-pin_offset = 1.5
+pin_diameter = 4
+pin_circle_diameter = 80
+number_of_pins = 33
+pin_offset = 1.0
 
 
 pin_radius = pin_diameter/2
-pin_circle_radius = pin_circle_diameter/2 
+pin_circle_radius = pin_circle_diameter/2
 
 # the circumference of the rolling circle needs to be exactly equal to the pitch of the pins
 # rolling circle circumference = circumference of pin circle / number of pins
-rolling_circle_radius = pin_circle_radius / number_of_pins 
+rolling_circle_radius = pin_circle_radius / number_of_pins
 
 contraction = rolling_circle_radius - pin_offset
 print("Contraction: ", contraction)
@@ -81,15 +81,15 @@ for angle in range(0,361):
     x =  (cycloid_base_radius + rolling_circle_radius) * cos(angle)
     y =  (cycloid_base_radius + rolling_circle_radius) * sin(angle)
     rolling_circle.center = (x, y)
-    
+
     point_x = x + (rolling_circle_radius - contraction) * cos(number_of_pins*angle)
     point_y = y + (rolling_circle_radius - contraction) * sin(number_of_pins*angle)
 
     rolling_circle_line.set_xdata((x,point_x))
     rolling_circle_line.set_ydata((y,point_y))
-    
+
     epicycloid_points.append([point_x,point_y])
-    epicycloid.set_xy(epicycloid_points)  
+    epicycloid.set_xy(epicycloid_points)
 
     plt.pause(0.001)
 

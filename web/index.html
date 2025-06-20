@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEP File Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#333">
+</head>
+<body>
+
+    <header>
+        <h1>STEP File Viewer</h1>
+        <div class="file-input-wrapper">
+            <button id="loadFileBtn">Відкрити STEP-файл</button>
+            <input type="file" id="fileInput" accept=".step, .stp" hidden>
+        </div>
+    </header>
+
+    <main>
+        <div id="viewer-container">
+            <div id="loader" class="hidden">
+                <div class="spinner"></div>
+                <p>Завантаження моделі...</p>
+            </div>
+            <div id="dropzone">
+                <p>Перетягніть .step або .stp файл сюди</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Import maps для керування залежностями JS без npm/bundlers -->
+    <script type="importmap">
+    {
+        "imports": {
+       "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/",
+        "occt-import-js": "https://cdn.jsdelivr.net/npm/occt-import-js@0.0.29/dist/occt-import-js.module.js"
+        }
+    }
+    </script>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>

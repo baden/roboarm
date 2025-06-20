@@ -1,0 +1,21 @@
+{
+    "name": "STEP File Viewer",
+    "short_name": "STEP Viewer",
+    "description": "A Progressive Web App for viewing 3D STEP files directly in the browser.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#282c34",
+    "theme_color": "#007bff",
+    "icons": [
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
