@@ -40,10 +40,29 @@ def end_plot():
     plt.show(block=True)
 
 
-pin_diameter = 4
-pin_circle_diameter = 80
-number_of_pins = 33
+#  Chosen one!
+# pin_diameter = 4
+# pin_circle_diameter = 80
+# number_of_pins = 33
+# pin_offset = 1.0
+
+## Axis #2
+# pin_diameter = 4
+# pin_circle_diameter = 90
+# number_of_pins = 39
+# pin_offset = 1.0
+
+## Axis #2
+pin_diameter = 5
+pin_circle_diameter = 123
+number_of_pins = 42
 pin_offset = 1.0
+
+
+# pin_diameter = 3
+# pin_circle_diameter = 20
+# number_of_pins = 8
+# pin_offset = 1.0
 
 
 pin_radius = pin_diameter/2
