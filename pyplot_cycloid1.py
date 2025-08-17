@@ -46,17 +46,17 @@ def end_plot():
 # number_of_pins = 33
 # pin_offset = 1.0
 
-## Axis #2
-# pin_diameter = 4
-# pin_circle_diameter = 90
+## Axis #2 (actual)
+pin_diameter = 4
+pin_circle_diameter = 92
+number_of_pins = 39
+pin_offset = 1.0
+
+## Axis #2 (search)
+# pin_diameter = 5
+# pin_circle_diameter = 123
 # number_of_pins = 39
 # pin_offset = 1.0
-
-## Axis #2
-pin_diameter = 5
-pin_circle_diameter = 123
-number_of_pins = 42
-pin_offset = 1.0
 
 
 # pin_diameter = 3
