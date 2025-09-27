@@ -1,0 +1,39 @@
+Name: dcesc-ga25
+Revision: 1
+
+Dimension: 24.0mm x 24.0mm
+Thickness: 1.6mm
+Layers: 2
+
+Gerber files:
+
+Copper layers (orger from top to bottom):
+Top copper:         dcesc-ga25-F_Cu.gtl
+Bottom copper:      dcesc-ga25-B_Cu.gbl
+
+Top solder mask:    dcesc-ga25-F_Mask.gts
+Bottom solder mask: dcesc-ga25-B_Mask.gbs
+Silkscreen:         dcesc-ga25-B_Silkscreen.gbo
+Outline:            dcesc-ga25-Edge_Cuts.gm1
+Top solder paste:   dcesc-ga25-F_Paste.gtp
+Drill:              dcesc-ga25.drl
+
+
+Color of solder mask: green
+Silkscreen color: white
+Surface Finish: HASL
+
+Copper weight: 1oz
+
+Material details: FR4-Standard Tg 140C
+
+Recomend panelizing: 4x5 vcut
+
+Components positions: dcesc-ga25-top.pos
+Components positions (CSV): dcesc-ga25-top.pos.csv
+Components positions (human pdf): dcesc-ga25-Top.pdf
+Components positions (human pdf): dcesc-ga25-Bottom.pdf
+
+Components list: dcesc-ga25.bom.csv
+
+Assembled board example: dcesc-ga25.png

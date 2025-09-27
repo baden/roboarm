@@ -1,0 +1,277 @@
+(footprint "Inductor_NR6028T100M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ba17bb61-ecca-4baa-b4fc-abe3368e8812")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10uH"
+		(at 0 2.3 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5508caa9-cf6b-4fc2-a806-faed576e243f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b1501996-3254-412a-802e-7727b46a4ca7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Inductor with ferrite core"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c8582537-20da-40bd-aea4-d0fcf98303a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "DPN" "587-2100-1-ND"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42d12a35-b78f-4e6a-b46d-1ba110770118")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digi-Key" "https://www.digikey.com/en/products/detail/taiyo-yuden/NR6028T4R7M/1866183?s=N4IgjCBcoEwAwA4DsVQGMoDMCGAbAzgKYA0IA9lANogAsAdEgAQCtAEiALqkAOALlCACqAOwCWvAPKYAsoWz4ArgCdCIAL5rSMKiAByAJQBscGAgAqnNUA"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bca04461-4caf-4a86-b7f6-ed967eac31ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "NR6028T4R7M"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36c689c4-da09-4dfb-935d-b84a5353248f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -3.6)
+		(end 3.6 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "711d0e38-c4f7-4cc3-bf06-c2cd69b79bd3")
+	)
+	(fp_line
+		(start -3.6 3.6)
+		(end -3.6 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d99b2076-9768-4039-af58-92b2cdaa4c8f")
+	)
+	(fp_line
+		(start 3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fc30b13-cd72-4a89-b0d4-b246ac8ef07b")
+	)
+	(fp_line
+		(start 3.6 3.6)
+		(end -3.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eefa525-ea57-4891-b6a6-6497767091bf")
+	)
+	(fp_line
+		(start -3 -2.8)
+		(end -2.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "772be430-4b73-448e-ba1b-8424305384fa")
+	)
+	(fp_line
+		(start -3 2.8)
+		(end -3 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ddf5232-1f63-4437-8768-e99e95b47dcd")
+	)
+	(fp_line
+		(start -3 2.8)
+		(end -2.2 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82e6781b-8bda-41b8-b1e9-7690bacd87ab")
+	)
+	(fp_line
+		(start -2 -3)
+		(end -3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2917255-1351-4efc-8d87-44a5d1dbc53e")
+	)
+	(fp_line
+		(start -2 -3)
+		(end 2 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4266b0ef-b58b-4dee-a911-cce2504ff440")
+	)
+	(fp_line
+		(start -2 3)
+		(end -3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0967fcd3-c8c1-46eb-a509-97ae2500556e")
+	)
+	(fp_line
+		(start 2 3)
+		(end -2 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0cd357c-feb3-4aca-a917-ab59cb3ca854")
+	)
+	(fp_line
+		(start 2.2 -2.8)
+		(end 3 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1329463e-48df-4fe2-bad6-4f955fe898fe")
+	)
+	(fp_line
+		(start 2.2 2.8)
+		(end 3 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b2ea37b-b07a-43ba-bf30-172a72144f8a")
+	)
+	(fp_line
+		(start 3 -2.8)
+		(end 3 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77ca0ae0-2b66-4296-a4ec-ebad7de78a10")
+	)
+	(fp_line
+		(start 3 -2)
+		(end 2 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63c6a3fc-dfea-4dd5-bb01-f3a827878547")
+	)
+	(fp_line
+		(start 3 2)
+		(end 2 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90b5859b-3bda-4b09-9189-119e99478d3b")
+	)
+	(pad "1" smd rect
+		(at -2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb84162f-1f84-4f3e-a024-d281f361db2c")
+	)
+	(pad "2" smd rect
+		(at 2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "0b3b1fa3-14c8-44ce-8261-f97fb822d09b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/packages3D/Inductor_NR6028T100M.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

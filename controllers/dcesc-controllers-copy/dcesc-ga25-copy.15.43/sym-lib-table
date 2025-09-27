@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-06-17_14-31-40")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-06-17_14-31-40.kicad_sym")(options "")(descr ""))
+  (lib (name "eg2104S")(type "KiCad")(uri "${KIPRJMOD}/symbols/eg2104S.kicad_sym")(options "")(descr ""))
+  (lib (name "local")(type "KiCad")(uri "${KIPRJMOD}/symbols/local.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4120-03-C_REVA")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB4120-03-C_REVA.kicad_sym")(options "")(descr ""))
+)
